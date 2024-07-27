@@ -6,8 +6,8 @@ export const ColaMusicasPedidas = () => {
     "https://cdn.domestika.org/c_fill,dpr_1.0,f_auto,h_1200,pg_1,t_base_params,w_1200/v1616967290/project-covers/001/154/725/1154725-original.?1616967290";
   return (
     <>
-      <section>
-        <p>COLA DE MUSICAS PEDIDAS</p>
+      <section className="cola-musicas-pedidas">
+        <p className="title-section">Reproduciendo ahora</p>
         <div>
           <div className="card-music">
             <img className="image-musica" src={URL_IMG} alt="Image album" />

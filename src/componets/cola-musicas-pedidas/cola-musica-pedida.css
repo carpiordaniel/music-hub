@@ -6,7 +6,17 @@
   --color-texto: #fff;
   --color-texto-oscuro: #f3f3f3;
 }
+section.cola-musicas-pedidas{
+  border: rgb(69, 67, 77) 1px solid;
+  padding: 30px 5px 5px 30px;
+}
 
+section p.title-section{
+  font-weight: 700;
+  font-size: 25px;
+  margin: 15px 0;
+  padding-left: 10px;
+}
 div.card-music{
   background-color: var(--morado-claro-oscuro);
   margin: 5px 10px;
