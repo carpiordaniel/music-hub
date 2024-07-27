@@ -1,12 +1,16 @@
-import './App.css'
+import "./App.css";
+import { ColaMusicasPedidas } from "./componets/cola-musicas-pedidas/layaut/ColaMusicasPedidas";
 
 function App() {
-
   return (
     <>
-     <p>Music hub</p>
+      <main className="main-app">
+        <p>MENU LATERAL</p>
+        <p>MAIN</p>
+        <ColaMusicasPedidas />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

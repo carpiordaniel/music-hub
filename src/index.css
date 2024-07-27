@@ -1,9 +1,18 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
- 
+  --morado-oscuro: #1e1b2e;
+  --morado-claro: #2f2b44;
+  --morado-claro-oscuro: #29273f;
+  --color-texto: #fff;
+  --color-texto-oscuro: #f3f3f3;
 }
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  
+  background-color: var(--morado-claro);
+  color: var(--color-texto-oscuro)
 }
