@@ -6,38 +6,38 @@
   --color-texto: #fff;
   --color-texto-oscuro: #f3f3f3;
 }
-section.cola-musicas-pedidas{
+section.cola-musicas-pedidas {
   border: rgb(69, 67, 77) 1px solid;
   padding: 30px 5px 5px 30px;
 }
 
-section p.title-section{
+section p.title-section {
   font-weight: 700;
   font-size: 25px;
   margin: 15px 0;
   padding-left: 10px;
 }
-div.card-music{
+div.card-music {
   background-color: var(--morado-claro-oscuro);
   margin: 5px 10px;
   display: grid;
-  grid-template-columns: 100px	 1fr 50px;
+  grid-template-columns: 100px 1fr 50px;
   text-align: left;
-  height: 110px;
+  height: 90px;
   grid-template-rows: 100px;
   gap: 10px;
   border-radius: 10px;
   padding: 10px;
 }
 
-img.image-musica{
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
+img.image-musica {
+  width: calc(100% - 25px);
+  height: calc(100% - 25px);
   border-radius: 10px;
   object-fit: contain;
 }
 
-div.card-music-text{
+div.card-music-text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -45,18 +45,18 @@ div.card-music-text{
   text-align: left;
   height: 90px;
 }
-div.card-music-text p.title{
+div.card-music-text p.title {
   font-weight: 700;
   font-size: 18px;
   margin: 0;
 }
-div.card-music-text p.artist{
+div.card-music-text p.artist {
   font-weight: 400;
   font-size: 14px;
-  margin: 0;	
+  margin: 0;
 }
 
-div.iconos{
+div.iconos {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -65,6 +65,67 @@ div.iconos{
   height: 90px;
 }
 
-section div.active{
+section div.active {
   background-color: var(--morado-oscuro);
+}
+
+.card-music-mas-pedida-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+section.cola-musicas-pedidas
+  .card-music-mas-pedida
+  img.image-musica-mas-pedida {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+  border-radius: 20px;
+}
+section.cola-musicas-pedidas
+  .card-music-mas-pedida
+  .card-music-text-mas-pedida {
+  display: flex;
+  justify-content: space-between;
+}
+section.cola-musicas-pedidas
+  .card-music-mas-pedida
+  .card-music-text-mas-pedida
+  p {
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+section .buscador {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .buscador input.input-buscador {
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  background-color: var(--morado-claro-oscuro);
+  border: 1px solid var(--morado-claro-oscuro);
+  color: var(--color-texto-oscuro);
+  padding-left: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+section .buscador .icono-buscador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-texto-oscuro);
+  height: 50px;
+  width: 55px;
+  font-size: 20px;
+  background-color: var(--morado-claro-oscuro);
+  border-radius: 100px;
+  margin-right: 10px;
+  cursor: pointer;
 }
