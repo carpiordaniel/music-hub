@@ -1,6 +1,6 @@
 import "./App.css";
-import { ColaMusicasPedidas } from "./componets/cola-musicas-pedidas/layaut/ColaMusicasPedidas";
-import { MasPedidas } from "./componets/mas-pedidas/layaut/MasPedidas";
+import { ColaMusicasPedidas } from "./layaut/cola-musicas-pedidas/layaut/ColaMusicasPedidas";
+import { MasPedidas } from "./layaut/mas-pedidas/layaut/MasPedidas";
 
 function App() {
   return (
